@@ -1,0 +1,12 @@
+div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h3{
+    background-color: red;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+}

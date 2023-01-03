@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(7, 7, 131);
+    box-sizing: border-box;
+}
+
+.users{
+    width: 30%;
+    height: 70vh;
+    ;
+}
+
+.co{
+    border: 1px solid black;
+    height: 9vh;
+    line-height: 5%;
+    margin: 5px;
+    background-color: white;
+    border-radius: 60px;
+    width: 60%;
+    padding: 0px 0px 0px 10px;
+    cursor: pointer;
+}
+
+.parent2{
+    background-color: wheat;
+    height: 105vh;
+    width: 70%;
+}
+.baba{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first{
+    border: 1px solid black;
+    width: 97%;
+    margin: 5px auto;
+    font-size: medium;
+    height: 9.4vh;
+    line-height: 80%;
+}
+.first .h{
+    margin: 5px;
+}
+.first .p{
+    margin: 5px;
+}
