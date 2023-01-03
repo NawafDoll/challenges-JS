@@ -11,7 +11,7 @@ function req(num){
         let res = JSON.parse(req.responseText)
         console.log(res)
         parent.innerHTML = ``
-        for(i=0;i<10;i++){
+        for(i=0;i<res.length;i++){
             let result = document.createElement('div')
             result.setAttribute('class','first')
             let h = document.createElement('h3')
@@ -37,7 +37,7 @@ function getUsers(){
         let res = JSON.parse(req.responseText)
         console.log(res)
             if(req.status >= 200 && req.readyState === 4){
-                for(i=0;i<10;i++){
+                for(i=0;i<res.length;i++){
                     let h4 = document.createElement('h4')
                     h4.setAttribute('class','name')
                     let p = document.createElement('p')
